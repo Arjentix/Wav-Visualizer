@@ -1,4 +1,4 @@
-# Wav Vizualizer
+# Wav Visualizer
 
 This program parses all data from file of .wav format and prints it to the screen.
 It is also transfer music data into accessory program for showing graph. Accessory program: https://github.com/Erigara/Audio_visualization
