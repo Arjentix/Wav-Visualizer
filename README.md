@@ -34,4 +34,4 @@ make clean && make
 ## API
 
 Such a big word, but I'm providing only music data for another program, which should show them on the graph. You can write your own program, doing this, and connect to my program by just passing it in arguments with flag -c (see *Using*).
-Only one requirement for your program: it should takes all data from standart input in format "%d %d %d ..." (%d - is usigned short num in range of [0; 2^16).
+Only one requirement for your program: it should takes all data from standart input in format "%d %d %d ..." (%d - is unsigned short num in range of [0; 2^16).

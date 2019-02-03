@@ -8,7 +8,7 @@
 * This program parses file of .wav format and show all extracted information.
 * It also calls to the accessory program for showing data graph.
 * The accessory program should be passing in this program as an argument of flag '-c'.
-* Usage example: ./wav_vizualizer music.wav -c ./audo_visualization
+* Usage example: ./wav_visualizer music.wav -c 'python3 graph_program'
 */
 
 #include <stdio.h>

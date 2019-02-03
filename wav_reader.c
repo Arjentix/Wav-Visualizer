@@ -393,7 +393,7 @@ void show_wav(wav_data_t wav, int wav_fd, char *cmd_to_show_data)
 	}
 
 	/*
-	* Ignoring SIGPIPE signal so the program will no fall,
+	* Ignoring SIGPIPE signal so the program will not fall,
 	* if another program for showing data will end up before the end of data transfer.
 	*/
 	signal(SIGPIPE, SIG_IGN);

@@ -12,6 +12,7 @@
 * which can be used to read, print and show data of wav file.
 */
 
+/* DATA_LENGTH - macro that means max symbols for fields content. */
 #define DATA_LENGTH 256
 
 /*
@@ -28,7 +29,7 @@ typedef struct fmt_data {
 } fmt_data_t;
 
 /*
-* The follow strucure needs for containing data about artist, equipement, etc.
+* The follow strucure is needed for containing data about artist, equipement, etc.
 * INFO chunk mustn't exist always.
 */
 typedef struct info_data {
@@ -136,7 +137,7 @@ typedef struct info_data {
 	char ISRF[5];
 	long ISRF_size;
 	char ISRF_data[DATA_LENGTH];
-	
+
 	/* The name of the technician who digitized the subject file */
 	char ITCH[5];
 	long ITCH_size;
